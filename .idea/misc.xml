@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/container_border_bottom.xml" value="0.12" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/ic_cerrar_sesion.xml" value="0.2155" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/rounded_transparent.xml" value="0.12" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/rounded_white.xml" value="0.121" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/mapa_activity.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/mapa_activity.xml" value="0.2" />
       </map>
     </option>
   </component>
