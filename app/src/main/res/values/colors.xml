@@ -10,6 +10,6 @@
     <color name="blue">#FF012B55</color>
     <color name="blue_transparente">#54012B55</color>
     <color name="background">#FFF2F6FF</color>
-    <color name="text">#FF23233C</color>
-    <color name="subtexto">#FF7F8DA0</color>
+    <color name="purple_dark">#FF23233C</color>
+    <color name="gray_ligth">#FF7F8DA0</color>
 </resources>

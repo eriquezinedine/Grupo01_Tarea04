@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">BIENVENIDO</string>
+    <string name="slogan">Encuentra tu camino y viaja seguro</string>
+    <string name="gmail">GMAIL</string>
+    <string name="insert_gmail_hint">Ingresar tu correo</string>
+    <string name="password">PASSWORD</string>
+    <string name="insert_password_hint">Ingresar tu Contraseña</string>
+    <string name="login">INICIAR SESION</string>
+    <string name="password_forget">¿Olvidastes tu Contraseña?</string>
+    <string name="recuperate">Recuperala</string>
+    <string name="logo">Logo</string>
+</resources>
