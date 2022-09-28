@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/celeste"
+        android:padding="20dp"
+        >
+        <LinearLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Por que motivos has cancelado?"
+                android:textStyle="normal"
+                android:textSize="30sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuentanos para asi mejorar el servicio"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        >
+        <LinearLayout
+            android:id="@+id/ll_buttons_cancel"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conductor retrazado"
+                android:background="@drawable/background_button_cancel"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conductor retrazado"
+                android:background="@drawable/background_button_cancel"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conductor retrazado"
+                android:background="@drawable/background_button_cancel"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conductor retrazado"
+                android:background="@drawable/background_button_cancel"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+        <Button
+            app:layout_constraintTop_toBottomOf="@+id/ll_buttons_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_button_leave_border"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="VOLVER"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
