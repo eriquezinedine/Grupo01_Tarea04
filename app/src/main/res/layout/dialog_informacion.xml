@@ -98,6 +98,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/btn_returnInfo"
             android:layout_width="100dp"
+            android:onClick="NavigatorPop"
             android:background="@drawable/rounded_transparent"
             android:layout_height="60dp">
 

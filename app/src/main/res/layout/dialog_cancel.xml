@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     >
@@ -82,15 +82,18 @@
                 android:textSize="14sp"
                 />
         </LinearLayout>
+
         <Button
-            app:layout_constraintTop_toBottomOf="@+id/ll_buttons_cancel"
+            android:id="@+id/btn_volver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:background="@drawable/background_button_leave_border"
-            android:textSize="16sp"
-            android:textColor="@color/white"
             android:text="VOLVER"
-            />
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_buttons_cancel" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

@@ -5,18 +5,25 @@
       <map>
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1915" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/container_border_bottom.xml" value="0.12" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.129" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/ic_baseline_local_taxi_24.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/ic_cancelar.xml" value="0.1915" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/ic_cerrar_sesion.xml" value="0.2155" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1915" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/rounded_blue.xml" value="0.1915" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/rounded_transparent.xml" value="0.12" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/drawable/rounded_white.xml" value="0.121" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/activity_login.xml" value="0.24074074074074073" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/dialog_cancel.xml" value="0.2" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/dialog_cancelar.xml" value="0.1" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/dialog_cerrar.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/dialog_forget_password.xml" value="0.1" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/dialog_informacion.xml" value="0.1" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/dialog_leave.xml" value="0.4" />
         <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/login_activity.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/mapa_activity.xml" value="0.176" />
+        <entry key="..\:/Users/Public/Documents/Grupo01_Tarea04/app/src/main/res/layout/mapa_activity.xml" value="0.1" />
       </map>
     </option>
   </component>

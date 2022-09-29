@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@mipmap/mapa_backgorund"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MapaActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
@@ -78,6 +79,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout3"
                 android:layout_width="50dp"
+                android:onClick="DialogLeave"
                 android:layout_height="50dp"
                 android:background="@drawable/rounded_white">
 
@@ -100,6 +102,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="100dp"
+        android:onClick="DialogInfo"
         android:layout_height="100dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="92dp"

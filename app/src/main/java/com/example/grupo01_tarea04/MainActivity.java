@@ -4,35 +4,43 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ConstraintLayout btn_cerrar, btn_returnInfo;
+    private TextView tv_recuperar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mapa_activity);
+        setContentView(R.layout.activity_login);
 
-        btn_cerrar = findViewById(R.id.btn_cancelar);
+        tv_recuperar = findViewById(R.id.tv_recuperar);
 
-
-        btn_cerrar.setOnClickListener(new View.OnClickListener() {
+        tv_recuperar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mostrarDialogInformacion();
+                DialogPassword();
             }
         });
+//        btn_cerrar.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                mostrarDialogInformacion();
+//            }
+//        });
 
     }
 
-    private void mostrarDialogInformacion(  ){
+
+    private void DialogPassword(  ){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         LayoutInflater inflater = getLayoutInflater();
-        View view = inflater.inflate(R.layout.dialog_informacion, null);
+        View view = inflater.inflate(R.layout.dialog_forget_password, null);
         builder.setView(view);
         AlertDialog dialog = builder.create();
         dialog.show();
@@ -51,5 +59,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void NavigatorInit(View view) {
+        Intent intenet = new Intent(MainActivity.this,MapaActivity.class);
+        startActivity(intenet);
+    }
 
+    public void NavigatorPop(View view){
+        ;
+    }
 }
